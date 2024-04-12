@@ -108,4 +108,10 @@
     text-transform: uppercase;
   }
 
+  @media only screen and (max-width: 991px) {
+    body {
+      text-align: center;
+    }
+  }
+
   
