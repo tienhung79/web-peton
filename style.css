@@ -13,7 +13,7 @@
     color: #333;
     background: #fff;
     background-image: url(./image/polarton/background.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: center center;
     height: fit-content;
@@ -85,3 +85,27 @@
       text-align: center;
     }
   }
+
+  @media only screen and (max-width: 686px) {
+    header .logo img, footer .container img {
+      width: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    header .logo img, footer .container img {
+      width: 40px;
+    }
+  }
+
+  .polarton-text {
+    color: white;
+    /* background-color: #fff; */
+    display: inline-block;
+    font-weight: 700;
+    padding: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+
+  
